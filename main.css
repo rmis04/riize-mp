@@ -9,6 +9,8 @@
         margin-right:auto;
       background: linear-gradient(0deg, rgba(205,205,205,1) 0%, rgba(230,230,230,1) 30%, rgba(255,255,255,1) 100%); 
       padding:5px;
+		  cursor: url("ani180.cur"), auto;
+}
     }
  
 
