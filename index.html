@@ -1,3 +1,9 @@
+You only need to add inline styles to the two buttons. Here is your updated `index.html` with the requested changes:
+
+* **+ button:** moved **down** with `padding-top: 7px;`
+* **− button:** moved **up** with `margin-top: -7px;`
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,7 +43,8 @@
                             class="fas fa-plus"
                             type="button"
                             onclick="volumeUp()"
-                            aria-label="Volume Up">
+                            aria-label="Volume Up"
+                            style="padding-top: 7px;">
                         </button>
 
                     </div>
@@ -89,7 +96,8 @@
                             class="fas fa-minus"
                             type="button"
                             onclick="volumeDown()"
-                            aria-label="Volume Down">
+                            aria-label="Volume Down"
+                            style="margin-top: -7px;">
                         </button>
 
                     </div>
@@ -136,33 +144,21 @@
                         <tr>
 
                             <td>
-
                                 <button type="button">
-
                                     <i class="fas fa-sync"></i>
-
                                 </button>
-
                             </td>
 
                             <td>
-
                                 <button type="button">
-
                                     <i class="fas fa-music"></i>
-
                                 </button>
-
                             </td>
 
                             <td>
-
                                 <button type="button">
-
                                     <i class="fas fa-random"></i>
-
                                 </button>
-
                             </td>
 
                         </tr>
@@ -186,3 +182,6 @@
 </body>
 
 </html>
+```
+
+If you're trying to make it look **identical to the original Apple concept**, I actually recommend doing this in **CSS** instead of inline styles. That way the icons stay perfectly centered even if you resize the wheel.
