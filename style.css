@@ -162,7 +162,7 @@ button:active {
 
 #musicplayer {
 
-    width: 185px;
+    width: 200px;
 
     padding: 10px 14px;
 
@@ -217,7 +217,7 @@ button:active {
 
     align-items: center;
 
-    gap: 8px;
+    gap: 6px;
 
     color: #7f95af;
 
@@ -226,7 +226,7 @@ button:active {
 
 .current-time,
 .total-duration {
-    width: 34px;
+    width: 32px;
     text-align: center;
 }
 
